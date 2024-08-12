@@ -1,0 +1,477 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    
+    
+}
+body{
+  
+}
+
+
+header{
+   
+position: relative;
+
+}
+.img-container{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+
+}
+.img1{
+object-fit: cover;
+scale: 1.2;
+}
+.app{
+    color: rgb(247, 247, 247);
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+.app p{
+    margin-left: 5px;
+} 
+nav{
+    position:absolute;
+  top:30px;
+  left: 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    
+}
+ul{
+    color: white;
+    display: flex;
+    padding-right: 55px;
+   list-style: none;
+font-size: 18px;
+cursor: pointer;
+}
+ul li{
+    margin-right: 35px;
+}
+.context{
+    position: absolute;
+top: 130px;
+width: 100%;
+align-items: center;
+display: flex;
+flex-direction: column;
+ padding-top: 10px;
+ width: 100%;
+}
+.zomato{
+    height: 68px;
+    padding-bottom: 26px;
+    padding-right: 150px;
+}
+.context h2{
+   color: white;
+   font-family: sans-serif;
+    font-weight: 200;
+    font-size: 35px;
+}
+.box{
+    width: 50%;
+    background-color: white;
+    margin-top:45px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+
+}
+.loc{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    padding-top: 12px;
+    color: grey;
+    padding-left: 12px;
+}
+.loc-icon{
+    padding-top: 20px;
+}
+.both{
+    display: flex;
+}
+.both p{
+    font-size: 15px;
+}
+.src-box input{
+    width: 550px;
+    border: 0;
+   color: grey;
+   font-size: 15px;
+}
+.src-box{
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+    padding-left: 20px;
+}
+.section-1{
+    background-color: rgb(255, 255, 255);
+    width: 76.%;
+    height: 85vh;
+    padding: 35px 180px; 
+    
+
+}
+.p2-box{
+    width:550px;
+    height: 240px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 15px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.p2-box:hover{
+    scale: 1.05;
+    
+
+}
+
+.box-img{
+    height: 160px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-caption{
+    height: 80px;
+    width: 100%;
+    
+    border-radius: 0 0 15px 15px;
+    padding: 15px 30px;
+}
+.img-caption h1{
+    font-weight: 500;
+    font-size: 20px;
+}
+.img-caption p{
+    font-weight: 400;
+    color: grey;
+}
+.p2-loc{
+width: 360px;
+height: 80px;
+background-color: white;
+border-radius: 8px;
+border: .5px black solid;
+padding-top: 10px;
+display: flex;
+justify-content: space-between;
+}
+.pop{
+    margin-top: 85px;
+}
+.pop h1{
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 37px;
+}
+
+.loc-details{
+    height: 90px;
+    width: 360px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border: .05px rgba(0, 0, 0, 0.216) solid;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.malappuram h2{
+font-size: 22px;
+font-weight: 400;
+}
+.malappuram p{
+    font-weight: 500;
+    color: grey;
+}
+.malappuram{
+    padding: 14px 15px;
+}
+.loc-details svg{
+    margin-top: 35px;
+    margin-right: 20px;
+}
+.loc-details:hover{
+    box-shadow: 0px 1.42623px 2.8524px rgba(0, 0, 0, 0.282)
+    
+}
+.section-2{
+    background-color:rgb(255, 251, 247);
+   width:76.%;
+   height:550px;
+}
+.p3{
+    width: 100%;
+    height:550px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200p;
+    
+}
+.phone-image{
+    width: 40%;
+    height: 550px;
+    
+}
+.phone-image img{
+   width: 40%;
+   padding-left: 60%;
+   padding-top: 25%;
+  
+}
+.details{
+    width: 60%;
+    height: 550px;
+    padding-top: 90px;
+    padding-left: 50px;
+    
+}
+.details h1{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 50px;
+    
+}
+.details p{
+    color: rgb(63, 63, 63);
+    font-weight: 400;
+    padding-top: 15px;
+    font-size: 18px;
+}
+.radio-btn {
+    font-size: 18px;
+    font-weight: 350;
+    padding-top: 30px;
+    color: rgb(50, 50, 50);
+}
+.radio-btn input{
+    cursor: pointer;
+}
+
+.radio-btn input[type=radio]{
+    width: 15px;
+    height: 15px;
+    padding-top: 20px;
+}
+.contact-details{
+    width: 100%;
+    height: 50px;
+    
+    display: flex;
+    padding-top: 20px;
+}
+.contact-details input{
+    width: 330px;
+    background-color: white;
+    border: 1px rgba(0, 0, 0, 0.29) solid;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.contact-details button{
+    margin-left: 15px;
+    color: white;
+    background-color:#fc031c77;
+    border-radius: 6px;
+    font-size: 17px;
+    border: 0;
+    cursor: pointer;
+}
+.contact-details button:hover{
+    background-color:#f43f51
+}
+.app-details{
+    width: 100%;
+    height: 150px;
+    
+    margin-top: 20px;
+}
+.app-details p{
+    font-size: 16px;
+    color: grey;
+}
+.playstore-appstore{
+    padding-top: 18px;
+}
+.playstore{
+    width:18%;
+    cursor: pointer;
+}
+.appstore{
+width: 18%;
+margin-left: 18px;
+cursor: pointer;
+}
+.section-3{
+    width: 76.%;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+}
+.p4{
+    
+    height: max-content;
+    
+    margin-left: 209.600px;
+    padding-bottom: 50px;
+
+}
+.p4 h2{
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.acc-1{
+    width: 83%;
+    height: 70px;
+    cursor: pointer;
+    margin-top: 15px;
+    border: 1px rgba(0, 0, 0, 0.145) solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.acc-1 h3{
+    padding: 20px;
+    font-weight: 400;
+}
+.acc-1 p{
+    padding-right:25px;
+    padding-top: 25px;
+}
+
+.section-4{
+    width: 76.%;
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 60px;
+    
+}
+.section-4-p1{
+    height: 15vh;
+    width: 100%;
+    background-color:rgb(248, 248, 248);
+    display: flex;
+    justify-content: space-between;
+}
+.country{
+    width: 115px;
+   border: 1px black solid;
+    height: 45px;
+    display: flex;
+    margin-top: 25px;
+    padding-left: 15px;
+    border-radius: 4px;
+    
+}
+.country img{
+    width: 20px;
+    height: 20px;
+    padding-top: 13px;
+}
+.country h3{
+    margin-left: 12px;
+    font-weight: 500;
+    padding-top: 9px;
+}
+.country svg{
+    padding-top: 15px;
+    padding-left: 12px;
+}
+.language{
+    width: 115px;
+    border: 1px black solid;
+    border-radius: 5px;
+     height: 45px;
+     display: flex;
+     margin-top: 25px;
+     margin-right: 28px;
+}
+.options{
+    width: 300px;
+    height: 45px;
+    margin-right: 185px;
+display: flex;
+justify-content: space-between;
+}
+.language svg{
+margin-top: 12px;
+margin-left: 10px;
+}
+.language h3{
+    font-weight: 500;
+    padding-top: 7px;
+    padding-left: 12px;
+}
+.zomato-img{
+    margin-top: 25px;
+    margin-left: 208px;
+}
+.five-div-sec{ 
+    height: 40vh;
+    
+    margin: 0 208px;
+    display: flex;
+
+}
+.footer-div{
+    display: block;
+}
+.sec-divs{
+    
+    
+}
+.footer-div h4{
+    color: black;
+    font-weight: 500;
+}
+.footer-div li{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(62, 60, 60);
+    padding-top: 10px;
+    
+}
+.social-img img{
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 1px;
+}
+.socials h4{
+    font-weight: 500;
+    margin-left: px;
+    font-size: 18px;
+}
+.socials{
+    margin-top: 7px;
+    width: 126px;
+}
+.Social-play-app img{
+    width: 160px;
+    margin-top: 15px;
+}
+.last-line{
+    width: 75%;
+    margin-left: 200px;
+}
+.last-line p{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(101, 99, 99);
+    padding-top: 25px;
+}
